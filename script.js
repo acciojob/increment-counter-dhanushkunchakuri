@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let counter=0;
 // let main=document.getElementById("body");
-let ele=document.getElementById("demo");
+let ele=document.getElementById("counter");
 
 
 function incrementbtn() {
