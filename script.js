@@ -1,11 +1,8 @@
-//your JS code here. If required.
+let doc=document.getElementById("incrementBtn");
+let p=document.getElementById("counter");
 let counter=0;
-function incrementbtn() {
+doc.addEventListener("click",()=>{
 	alert(counter);
-	counter+=1;
-	ele.textContent=counter;
-}
-let main=document.getElementById("incrementBtn");
-let ele=document.getElementById("counter");
-
-
+	counter++;
+	p.innerHTML=counter;
+})
